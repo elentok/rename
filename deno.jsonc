@@ -1,0 +1,9 @@
+{
+  "$schema": "https://deno.land/x/deno/cli/schemas/config-file.v1.json",
+  "fmt": {
+    "semiColons": false
+  },
+  "imports": {
+    "@std/path": "jsr:@std/path@^0.225.1"
+  }
+}
