@@ -5,7 +5,7 @@ interface Args {
   yes?: boolean
 }
 
-function main() {
+export function cli() {
   const program = new Command()
 
   program
@@ -36,8 +36,4 @@ function main() {
     )
 
   program.parse()
-}
-
-if (import.meta.main) {
-  main()
 }

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+deno install -g \
+  --allow-net --allow-write --allow-read --allow-run --allow-env \
+  rename.ts "$@"
